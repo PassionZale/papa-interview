@@ -6,10 +6,6 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   build: {
-    watch: {
-      include: 'src/**',
-      clearScreen: true
-    },
     lib: {
       entry: resolve(__dirname, 'src/main.js'),
       name: 'PapaUI',
