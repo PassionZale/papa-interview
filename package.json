@@ -1,0 +1,28 @@
+{
+  "name": "papaen-interview",
+  "version": "1.0.0",
+  "private": true,
+  "description": "papaen interview",
+  "main": "index.js",
+  "scripts": {
+    "app:ddl": "pnpm --filter=@papaen/ddl",
+    "ui": "pnpm --filter=@papaen/ui",
+    "dev": "pnpm --recursive --parallel --stream run dev"
+  },
+  "keywords": [
+    "papaen",
+    "interview"
+  ],
+  "author": "Lei Zhang",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.21.3",
+    "eslint": "^8.39.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-vue": "^9.11.0",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.2.8"
+  }
+}

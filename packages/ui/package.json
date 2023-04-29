@@ -1,0 +1,30 @@
+{
+  "name": "@papaen/ui",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/papa-ui.umd.cjs",
+  "module": "./dist/papa-ui.js",
+  "exports": {
+    ".": {
+      "import": "./dist/papa-ui.js",
+      "require": "./dist/papa-ui.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@papaen/tailwind-config": "workspace:^",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "vite": "^4.3.2"
+  }
+}
