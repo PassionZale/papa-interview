@@ -1,5 +1,5 @@
 <script setup>
-import { PapaLink } from "@papaen/ui"
+import { PapaLink } from '@papaen/ui';
 </script>
 
 <script>
@@ -12,9 +12,7 @@ export default {
   <div class="mx-auto max-w-2xl">
     <div class="rounded-lg border border-gray-200 bg-white p-6 shadow">
       <a href="#">
-        <h5
-          class="mb-2 text-2xl font-semibold tracking-tight text-gray-900"
-        >
+        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900">
           404 Not found
         </h5>
       </a>

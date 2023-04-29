@@ -10,10 +10,6 @@ export const useUserStore = defineStore({
     },
     hasLogged: false,
   }),
-
-  actions: {
-    patchInputState() {},
-  },
 });
 
 if (import.meta.hot) {

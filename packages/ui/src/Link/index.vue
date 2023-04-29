@@ -1,7 +1,7 @@
 <script>
 export default {
-  name: "PapaLink"
-}
+  name: 'PapaLink',
+};
 </script>
 
 <template>
@@ -9,4 +9,3 @@ export default {
     <slot />
   </a>
 </template>
-

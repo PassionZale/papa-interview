@@ -1,7 +1,7 @@
 <script setup>
 import { PapaButton, PapaModal, PapaTextarea } from '@papaen/ui';
 import { storeToRefs } from 'pinia';
-import { onMounted,ref } from 'vue';
+import { onMounted, ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 import { useUserStore } from '@/stores/user';
