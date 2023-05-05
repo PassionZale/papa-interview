@@ -7,7 +7,8 @@
   "scripts": {
     "app:ddl": "pnpm --filter=@papaen/ddl",
     "ui": "pnpm --filter=@papaen/ui",
-    "dev": "pnpm --recursive --parallel --stream run dev"
+    "dev": "pnpm --recursive --parallel --stream run dev",
+    "build": "pnpm run ui build && pnpm run app:ddl build"
   },
   "keywords": [
     "papaen",
